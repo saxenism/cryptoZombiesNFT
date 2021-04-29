@@ -36,8 +36,34 @@ contract ZombieFactory {
 }
 
 /* Notes
-1. 
+1. Addresses:
+    The ethereum blockchain is made up of accounts, which you can think of as bank accounts.
+    An account has a balance of Ether, and you can send and recieve Ether payments to other accounts, just like your bank account can wire transfer money to other bank accounts
 
+    Each bank account has an address which you can think of like a bank account number.Its a unique identifier that points to an account.
+    An address is owned by a specific user or a smart contract.
+
+   Mapping:
+    So we can use it as a unique ID for ownership of our zombies. When a user creates new zombies by interacting with our app, we'll set ownership of those zombies
+    to the Ethereum address that called the function
+
+    A mapping is essentially a key-value store for storing and looking up data
+        mapping(uint => string) userIdToName;
+
+2. msg.sender
+    In solidity, there are certain global variables that are available to all functions. One of them is msg.sender
+
+    msg.sender refers to the address of the person (or the smart contract) who called the current function
+
+    In solidity, function execution always needs to start with an external caller. A contract will just sit on the blockchain doing nothing until someone calls one of its functions. So, 
+    there will always be a msg.sender
+
+3. require is a keyword in Solidity used for condition checking. If this condition is met, then only a function is executed otherwise, it terminates with an error.
+    Example:
+    function sayHiToVitalik (string memory _name) public returns (string memory) {
+        require(keccak256(abi.encodePacked(_name)) == keccak256(abi.encodePacked("Vitalik")));
+        return "Hi Vitalik, thank you for Ethereum!!";
+    }
 
 4. Solidity does not support string comparison natively, so we simply compare the keccak256 hashes of the two strings.
 
