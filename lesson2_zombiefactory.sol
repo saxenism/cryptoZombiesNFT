@@ -5,7 +5,7 @@ contract ZombieFactory {
     event NewZombie(uint zombieId, string name, uint dna);
 
     uint dnaDigits = 16;
-    uint dnaModulus = 10 ** dnaDigits;
+    uint dnaModulus = 10 ** dnaDigits; //(10^16)
 
     struct Zombie {
         string name;
