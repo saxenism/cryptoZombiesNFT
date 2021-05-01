@@ -15,7 +15,7 @@
 4. [Lesson 4](https://github.com/hinduBale/cryptoZombiesNFT/tree/master#lesson-4)
 5. [Lesson 5](https://github.com/hinduBale/cryptoZombiesNFT/tree/master#lesson-5)
 
-## Lesson 1:
+## [Lesson 1](https://share.cryptozombies.io/en/lesson/1/share/saxenismgmail.com):
 1. Solidity code is encapsulated in contracts. A contract is the fundamental building block of Ethereum
 applications. All variables and functions belong to a contract and this will be the starting point of all projects
 2. State Variables:
@@ -76,7 +76,7 @@ applications. All variables and functions belong to a contract and this will be 
 <br/>
 <br/>
 
-## Lesson 2:
+## [Lesson 2](https://share.cryptozombies.io/en/lesson/2/share/saxenismgmail.com):
 
 1. Addresses:
     The ethereum blockchain is made up of accounts, which you can think of as bank accounts.
@@ -208,7 +208,7 @@ external is the same public, except that these functions can ONLY be called outs
 <br/>
 <br/>
 
-## Lesson 3:
+## [Lesson 3](https://share.cryptozombies.io/en/lesson/3/share/saxenismgmail.com):
 1. After you deploy a contract to Ethereum, it is immutable. It can never be modified/updated again.
 For this reason, if often makes sense to have functions that will allow you to update key portions of your dApp
 2. Ownable contract: Owners(contract creators) have special priviliges. It has the following three functions:
@@ -272,7 +272,7 @@ Because, if your code is slopp, then your users are going to pay a premium to ex
 <br/>
 <br/>
 
-## Lesson 4:
+## [Lesson 4](https://share.cryptozombies.io/en/lesson/4/share/saxenism?id=W251bGwsMiwxNF0=):
 1. *view* tells us that by running the functions, no data will be saved/changed.
 *pure* tells us that not only does the function not save any data to the blockchain, but it also doens't read any data from the 
 blockchain.
@@ -338,7 +338,7 @@ If a function is not marked as payable, and you try to send Ether to it, the fun
 <br/>
 <br/>
 
-## Lesson 5:
+## [Lesson 5](https://share.cryptozombies.io/en/lesson/5/share/H4XF13LD_MORRIS_💯💯😎💯💯):
 
 1. Tokens on Ethereum:
     A token on Ethereum is basically just a smart contract that follows some common rules — namely it implements
