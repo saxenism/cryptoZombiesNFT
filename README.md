@@ -9,11 +9,11 @@
 <br/>
 
 # Navigation:
-1. [Lesson 1](https://github.com/hinduBale/cryptoZombiesNFT/new/master?readme=1#lesson-1)
-2. [Lesson 2](https://github.com/hinduBale/cryptoZombiesNFT/new/master?readme=1#lesson-2)
-3. [Lesson 3](https://github.com/hinduBale/cryptoZombiesNFT/new/master?readme=1#lesson-3)
-4. [Lesson 4](https://github.com/hinduBale/cryptoZombiesNFT/new/master?readme=1#lesson-4)
-5. [Lesson 5](https://github.com/hinduBale/cryptoZombiesNFT/new/master?readme=1#lesson-5)
+1. [Lesson 1](https://github.com/hinduBale/cryptoZombiesNFT/tree/master#lesson-1)
+2. [Lesson 2](https://github.com/hinduBale/cryptoZombiesNFT/tree/master#lesson-2)
+3. [Lesson 3](https://github.com/hinduBale/cryptoZombiesNFT/tree/master#lesson-3)
+4. [Lesson 4](https://github.com/hinduBale/cryptoZombiesNFT/tree/master#lesson-4)
+5. [Lesson 5](https://github.com/hinduBale/cryptoZombiesNFT/tree/master#lesson-5)
 
 ## Lesson 1:
 1. Solidity code is encapsulated in contracts. A contract is the fundamental building block of Ethereum
